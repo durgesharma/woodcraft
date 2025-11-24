@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoodCraft | Home Renovation & Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-home"></i>
+                Wood<span>Craft</span>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#furniture">Furniture</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button">Book Consultation</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>From Structure to Style: Your Complete Home Solution</h1>
+            <p>We transform your living spaces with expert renovations and curated furniture collections.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Renovations</a>
+                <a href="#furniture" class="btn btn-secondary">Browse Furniture</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We offer comprehensive home solutions, from structural renovations to interior furnishings.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                    <div class="service-content">
+                        <h3>StructTech Renovations</h3>
+                        <p>Complete home transformations with expert craftsmanship and attention to detail.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Kitchen & Bath Remodels</li>
+                            <li><i class="fas fa-check"></i> Whole-Home Renovations</li>
+                            <li><i class="fas fa-check"></i> Custom Additions</li>
+                            <li><i class="fas fa-check"></i> Structural Repairs</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Get Quote</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2058&q=80');"></div>
+                    <div class="service-content">
+                        <h3>WoodCraft</h3>
+                        <p>Curated furniture collections to complete your newly renovated space.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Custom Furniture</li>
+                            <li><i class="fas fa-check"></i> Complete Room Packages</li>
+                            <li><i class="fas fa-check"></i> Design Consultation</li>
+                            <li><i class="fas fa-check"></i> Delivery & Setup</li>
+                        </ul>
+                        <a href="#furniture" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+                <p>See how we've transformed homes with our renovation and furnishing expertise.</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="renovation">Renovations</button>
+                <button class="filter-btn" data-filter="furnished">Furnished Homes</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="renovation" style="background-image: url('https://images.unsplash.com/photo-1600607687644-c7171b42498b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Kitchen Remodel</h3>
+                        <p>Complete kitchen transformation</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="furnished" style="background-image: url('https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80');">
+                    <div class="portfolio-overlay">
+                        <h3>Living Room Makeover</h3>
+                        <p>Fully furnished contemporary space</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="renovation" style="background-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+                    <div class="portfolio-overlay">
+                        <h3>Bathroom Renovation</h3>
+                        <p>Spa-like bathroom transformation</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="furnished" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80');">
+                    <div class="portfolio-overlay">
+                        <h3>Bedroom Suite</h3>
+                        <p>Complete bedroom furniture package</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Furniture Section -->
+    <section class="furniture" id="furniture">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Furniture</h2>
+                <p>Discover our curated collection of quality furniture to complete your home.</p>
+            </div>
+            <div class="furniture-grid">
+                <div class="furniture-card">
+                    <div class="furniture-img" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                    <div class="furniture-content">
+                        <h3>Modern Sofa Set</h3>
+                        <div class="furniture-price">$1,299</div>
+                        <div class="furniture-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="view-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="furniture-card">
+                    <div class="furniture-img" style="background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                    <div class="furniture-content">
+                        <h3>Dining Table Set</h3>
+                        <div class="furniture-price">$899</div>
+                        <div class="furniture-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="view-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="furniture-card">
+                    <div class="furniture-img" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                    <div class="furniture-content">
+                        <h3>King Size Bed</h3>
+                        <div class="furniture-price">$1,599</div>
+                        <div class="furniture-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="view-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="furniture-card">
+                    <div class="furniture-img" style="background-image: url('https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');"></div>
+                    <div class="furniture-content">
+                        <h3>Home Office Desk</h3>
+                        <div class="furniture-price">$499</div>
+                        <div class="furniture-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="view-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Process</h2>
+                <p>From consultation to completion, we make home transformation seamless.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Consult</h3>
+                    <p>We discuss your vision, needs, and budget</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Renovate</h3>
+                    <p>Our experts transform your space</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Furnish</h3>
+                    <p>We furnish with curated pieces</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Enjoy</h3>
+                    <p>You enjoy your transformed home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Clients Say</h2>
+                <p>Hear from homeowners who transformed their spaces with StructTech.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p class="testimonial-text">"StructTech handled our entire home makeover - from knocking down walls to the final decorative pillows. The process was seamless and the results exceeded our expectations!"</p>
+                    <p class="testimonial-author">- Sarah M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>StructTech</h3>
+                    <p>Transforming houses into homes with expert renovations and curated furnishings.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#furniture">Furniture</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home Renovations</a></li>
+                        <li><a href="#">Kitchen Remodeling</a></li>
+                        <li><a href="#">Bathroom Renovations</a></li>
+                        <li><a href="#">Furniture Sales</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Design Street, City</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@structtech.com</li>
+                    </ul>
+                    <div class="newsletter">
+                        <h3>Newsletter</h3>
+                        <input type="email" placeholder="Your email address">
+                        <button class="cta-button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 StructTech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
